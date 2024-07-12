@@ -8,16 +8,14 @@ import Footer from "@/components/Footer";
 
 
 const signup = () => (
-  <div className=" h-[120vh] flex flex-col justify-center items-center">
-    <div className="mt-2">
+  <div className="h-full max-w-md mx-auto ">
     <Header />
-    </div>
-    <div className="bg-white shadow-lg rounded-lg w-1/2 sm:w-screen  h-full mx-auto ">
+    <div className="bg-white shadow-lg rounded-lg h-full mx-auto ">
       <div className="bg-white rounded-lg flex items-end justify-center h-full">
-        <div className="bg-white px-2 py-5 h-full w-1/2 rounded-[8px]">
-
-          <h1 className="text-xl text-[#457B9D] font-bold mx-28">Sign up</h1>
-
+        <div className="bg-white px-2 py-5 h-full  rounded-[8px]">
+          <div className="grid place-items-center">
+            <h1 className="text-xl text-[#457B9D] font-bold ">Sign up</h1>
+          </div>
           <p className="text-base text-[#666666] mt-2 ">Welcome to,
             <br />
             Let’s get you started!

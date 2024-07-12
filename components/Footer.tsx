@@ -7,8 +7,9 @@ import { CiInstagram } from "react-icons/ci";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#000F15] mt-auto border-black border-t w-1/2">
+    <footer className="bg-[#000F15] max-w-md  mt-auto border-black border-t">
       <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+        <div>
         <Image
           className="block h-8 mt-4 w-auto sm:block lg:block"
           src="/logo.svg"
@@ -16,7 +17,8 @@ export default function Footer() {
           height="24"
           alt="logo"
         />
-        <div className="flex gap-4 mx-64">
+        </div>
+        <div className="flex gap-4 ">
           <FaTwitter color="white" />
           <CiInstagram color="white" />
           <HiOutlineMail color="white" />

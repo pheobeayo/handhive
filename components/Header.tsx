@@ -7,8 +7,8 @@ export default function Header() {
 
 
   return (
-    <nav className="bg-white border-b border-[#172934] w-1/2">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <nav className="bg-white max-w-md  border-b border-[#172934] ">
+      <div className="mx-auto flex  max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 justify-between">
           <div className="flex flex-1 items-center justify-left sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-left">
