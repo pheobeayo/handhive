@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import { FaTwitter } from "react-icons/fa";
 import { SiDiscord } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
@@ -9,6 +9,13 @@ export default function Footer() {
   return (
     <footer className="bg-[#000F15] mt-auto border-black border-t w-1/2">
       <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+        <Image
+          className="block h-8 mt-4 w-auto sm:block lg:block"
+          src="/logo.svg"
+          width="24"
+          height="24"
+          alt="logo"
+        />
         <div className="flex gap-4 mx-64">
           <FaTwitter color="white" />
           <CiInstagram color="white" />

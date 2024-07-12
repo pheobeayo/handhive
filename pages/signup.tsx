@@ -9,8 +9,10 @@ import Footer from "@/components/Footer";
 
 const signup = () => (
   <div className=" h-[120vh] flex flex-col justify-center items-center">
+    <div className="mt-2">
     <Header />
-    <div className="bg-white shadow-lg rounded-lg w-1/2 h-full mx-auto ">
+    </div>
+    <div className="bg-white shadow-lg rounded-lg w-1/2 sm:w-screen  h-full mx-auto ">
       <div className="bg-white rounded-lg flex items-end justify-center h-full">
         <div className="bg-white px-2 py-5 h-full w-1/2 rounded-[8px]">
 

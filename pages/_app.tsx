@@ -26,7 +26,7 @@ const connectors = connectorsForWallets(
     },
   ],
   {
-    appName: "adwuma",
+    appName: "handhive",
     projectId: "03c79037fcdf63ebafad8fb366264529",
   }
 );

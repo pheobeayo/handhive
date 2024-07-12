@@ -10,9 +10,8 @@ const book_errand = () => {
                 <NavBar />
             </div>
             <div className="px-3 pt-12">
-             <SearchErrand/>
-             <BookErrand/>   
-                
+                <SearchErrand />
+                <BookErrand />
             </div>
         </div>
     )

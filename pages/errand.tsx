@@ -6,7 +6,7 @@ import React from 'react'
 
 
 const errand = () => {
-   
+
 
     return (
         <div className="max-w-md mx-auto border-[#457B9D] border-2 rounded-lg ">
@@ -14,9 +14,8 @@ const errand = () => {
                 <NavBar />
             </div>
             <div className="px-3 pt-12">
-                <Errandhistory/>
-                <Earlierhistory/>
-                
+                <Errandhistory />
+                <Earlierhistory />
             </div>
         </div>
     )
