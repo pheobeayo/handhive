@@ -14,14 +14,14 @@ const Reviews = () => {
             review:
                 "Alicia did an amazing job with cleaning service. Highly recommend her services!",
             ratings: Star,
-            date: "29/06/2024",
+            
         },
         {
             image: ProfilePhoto,
             name: "Jerry Khan",
             review: "Great work, very professional and quick turnaround.",
             ratings: Star,
-            date: "29/06/2024",
+            
         },
         {
             image: ProfilePhoto,
@@ -29,14 +29,14 @@ const Reviews = () => {
             review:
                 "Alicia did an amazing job with cleaning service. Highly recommend her services!",
             ratings: Star,
-            date: "29/06/2024",
+            
         },
         {
             image: ProfilePhoto,
             name: "Jerry Khan",
             review: "Great work, very professional and quick turnaround.",
             ratings: Star,
-            date: "29/06/2024",
+            
         },
     ];
     return (
@@ -51,9 +51,9 @@ const Reviews = () => {
 
             {reviews.map((review, index) => (
                 <SwiperSlide key={index} className="bg-white mt-5 px-2 py-3">
-                    <Link href="/errands" className="bg-[#F8F8F8] rounded-[8px] border-[#ADAF47] border-2  pb-2 mt-4">
+                    <Link href="/errands" className="">
                     <div className="pt-4">
-                        <div className="flex space-x-2 pt-3 items-center">
+                        <div className="flex space-x-2 pt-3 items-center bg-[#F8F8F8] rounded-[8px] border-[#ADAF47] border-2  pb-2 mt-4">
                             <Image src={review.image} alt="profile_photo" />
                             <p className="text-sm font-semibold text-[#001219]">
                                 {review.name}
@@ -72,9 +72,7 @@ const Reviews = () => {
                             <Image src={review.ratings} alt="Star" />
                             <Image src={review.ratings} alt="Star" />
                         </div>
-                        <div>
-                            <p className="text-xs">{review.date}</p>
-                        </div>
+                        
                     </div>
                     </Link>
                 </SwiperSlide>

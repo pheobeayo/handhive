@@ -11,26 +11,26 @@ const Runner = () => {
             image: ProfilePhoto,
             name: "Sarah Matter",
             review:
-                "“Let me help you get your apartment cleaned up while you work” ",
+                "“Let me help you get your apartment” ",
 
         },
         {
             image: ProfilePhoto,
             name: "Jerry Khan",
-            review: "I make grocery shopping easier.",
+            review: "“I make grocery shopping easier.”",
 
         },
         {
             image: ProfilePhoto,
             name: "Sarah Matter",
             review:
-                "“Let me help you get your apartment cleaned up while you work",
+                "“Let me help you get your apartment cleaned up while you work” ",
 
         },
         {
             image: ProfilePhoto,
             name: "Jerry Khan",
-            review: "I make grocery shopping easier.",
+            review: "“I make grocery shopping easier.”",
 
         },
     ];
@@ -42,18 +42,18 @@ const Runner = () => {
                     Runners
                 </Link>
             </div>
-            <Swiper slidesPerView={2} spaceBetween={2} className="mySwiper">
+            <Swiper slidesPerView={2} spaceBetween={10}  className="mySwiper">
                 {reviews.map((review, index) => (
-                    <SwiperSlide key={index} className="bg-white mt-5 w-20 px-2 py-3">
+                    <SwiperSlide key={index} className="bg-white mt-2  px-2 ">
                         <Link href="/errands" className="">
-                            <div className="pt-4 bg-[#F8F8F8] rounded-[8px] border-[#457B9D] border-2 ">
-                                <div className="flex space-x-2 pt-3 items-center">
+                            <div className="pt-2 bg-[#F8F8F8] rounded-[8px] border-[#457B9D] border-2 ">
+                                <div className="flex space-x-2  items-center">
                                     <Image src={review.image} alt="profile_photo" />
-                                    <p className="text-sm font-semibold text-[#001219]">
+                                    <p className="text-sm font-normal text-[#001219]">
                                         {review.name}
                                     </p>
                                 </div>
-                                <p className="text-sm font-semibold text-[#2B3A3F]">
+                                <p className="text-sm font-normal text-[#2B3A3F]">
                                     {review.review}
                                 </p>
                             </div>
