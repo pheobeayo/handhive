@@ -1,4 +1,4 @@
-import { FC, ReactNode } from "react";
+import { FC, ReactNode  } from "react";
 
 
 
@@ -9,11 +9,11 @@ const Layout: FC<Props> = ({ children }) => {
   
   return (
     <>
-     
+      
         <div className="bg-white">
           <div className=" max-w-7xl mx-auto">{children}</div>
         </div>
-    
+   
     </>
   );
 };

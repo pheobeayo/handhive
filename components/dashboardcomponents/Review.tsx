@@ -61,16 +61,16 @@ const Reviews = () => {
                             <div className="pt-4 rounded-[8px] border-[#ADAF47] border-2  pb-2 mt-4">
                                 <div className="flex space-x-2 pt-3 items-center bg-white ">
                                     <Image src={review.image} alt="profile_photo" />
-                                    <p className="text-sm font-semibold text-[#001219]">
+                                    <p className="text-sm font-semibold text-[#001219] ">
                                         {review.name}
                                         <br />
                                         {review.occupation}
                                     </p>
                                 </div>
-                                <p className="text-sm font-semibold text-[#2B3A3F]">
+                                <p className="text-sm font-semibold text-[#2B3A3F] p-2">
                                     {review.review}
                                 </p>
-                                <div className="flex justify-between flex-row ">
+                                <div className="flex justify-between flex-row p-2 ">
                                     <div className="flex text-sm font-semibold text-[#3D3D3D] ">
                                         Ratings:{" "}
                                         <Image src={review.ratings} alt="Star" />

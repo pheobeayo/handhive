@@ -1,4 +1,4 @@
-import { Space_Grotesk } from "next/font/google";
+import Link from "next/link";
 import React from "react";
 import Header from '@/components/Header';
 import Footer from "@/components/Footer";
@@ -59,7 +59,7 @@ const signupsubmit = () => (
                         </button>
                     </div>
                     <div className="mt-2 mb-2">
-                        <p className="text-[#001219] text-base">Have an account?<span className="text-[#E63946]"> Sign in</span></p>
+                      <Link href='/'>  <p className="text-[#001219] text-base">Have an account?<span className="text-[#E63946]"> Sign in</span></p></Link>
                         <p>Creating an account is an agreement to our Terms & Conditions and acknowledgment that you understand the Privacy Policy</p>
                     </div>
                 </div>

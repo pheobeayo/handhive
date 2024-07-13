@@ -1,7 +1,7 @@
-import { Space_Grotesk } from "next/font/google";
 import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Link from 'next/link';
 
 
 
@@ -41,9 +41,9 @@ const signup = () => (
 
           </ul>
           <div className="mt-4">
-            <button className="bg-[#457B9D] w-full text-white h-[44px] rounded-[12px]">
+           <Link href='/signupsubmit'> <button className="bg-[#457B9D] w-full text-white h-[44px] rounded-[12px]">
               Next
-            </button>
+            </button></Link>
           </div>
           <div className="mt-4">
             <button type="button" className="py-2 px-4 max-w-md flex justify-center items-center bg-white hover:bg-[#457B9D] focus:ring-[#457B9D] focus:ring-offset-red-200 text-[#001219] w-full transition ease-in duration-200 text-center text-base font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg border-[#001219] border-2">

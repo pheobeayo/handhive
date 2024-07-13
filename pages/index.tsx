@@ -1,4 +1,4 @@
-import { Space_Grotesk } from "next/font/google";
+import Link from "next/link";
 import React from "react";
 import Header from '@/components/Header';
 import Footer from "@/components/Footer";
@@ -57,7 +57,7 @@ const signin = () => (
             </button>
           </div>
           <div className="mt-2 mb-2">
-            <p className="text-[#001219] text-base">No account?<span className="text-[#E63946]"> Create one</span></p>
+           <Link href='/signup'> <p className="text-[#001219] text-base">No account?<span className="text-[#E63946]"> Create one</span></p></Link>
           </div>
         </div>
       </div>
