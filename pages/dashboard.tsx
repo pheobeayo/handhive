@@ -2,8 +2,9 @@ import NavBar from '@/components/Navbar'
 import Errand from '@/components/dashboardcomponents/Errand'
 import Wallet from '@/components/dashboardcomponents/Wallet'
 import Runner from '@/components/dashboardcomponents/runner'
-import Reviews from '@/components/reviewcomponents/Review'
+import Reviews from '@/components/dashboardcomponents/Review'
 import React from 'react'
+import Recent from '@/components/dashboardcomponents/Recent'
 
 
 
@@ -20,6 +21,7 @@ const dashboard = () => {
                 <Runner/>
                 <Errand/>
                 <Reviews/>
+                <Recent/>
             </div>
         </div>
     )

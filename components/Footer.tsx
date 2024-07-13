@@ -18,7 +18,7 @@ export default function Footer() {
           alt="logo"
         />
         </div>
-        <div className="flex gap-4 pt-4">
+        <div className="flex gap-4 pt-4 cursor-grab">
           <FaTwitter color="white" />
           <CiInstagram color="white" />
           <HiOutlineMail color="white" />

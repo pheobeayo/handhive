@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { HiArrowCircleRight } from "react-icons/hi";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
 
 
 const Errand = () => {
@@ -38,8 +40,8 @@ const Errand = () => {
             {errands.map((errand, index) => (
                 <SwiperSlide key={index} className="bg-white mt-5 px-2 py-3">
                     <Link href="/errands" className="">
-                    <div className="pt-4 bg-[#F8F8F8] rounded-[8px] border-[#E63946] border-2 pb-2 mt-4">
-                        <div className="border rounded-lg bg-white">
+                    <div className="pt-4 bg-white rounded-[8px] border-[#E63946] border-2 pb-2 mt-4">
+                        <div className=" rounded-lg bg-white">
                             <div className="flex gap-10">
                                 <div className="w-1/2 mt-4">
                                     <p className="text-lg font-bold text-[#001219] mx-2">
@@ -49,8 +51,8 @@ const Errand = () => {
                                         {errand.review}
                                     </p>
                                 </div>
-                                <div className="mt-3 w-1/2">
-                                    <HiArrowCircleRight color="red" className="mt-4 mb-4 mx-2" />
+                                <div className="mt-12">
+                                    <HiArrowCircleRight color="red" className="mt-4  mx-2" />
                                 </div>
                             </div>
                         </div>

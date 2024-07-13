@@ -1,5 +1,5 @@
 import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars4Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 
@@ -26,7 +26,7 @@ export default function Header() {
             <Disclosure>
               <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-black focus:outline-none focus:ring-1 focus:ring-inset focus:rounded-none focus:ring-black">
                 <span className="sr-only">Open main menu</span>
-                <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                <Bars4Icon className="block h-6 w-6" aria-hidden="true" />
               </Disclosure.Button>
             </Disclosure>
           </div>

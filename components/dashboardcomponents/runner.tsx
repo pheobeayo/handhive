@@ -2,6 +2,8 @@ import React from "react";
 import ProfilePhoto from "../../assets/reviewdetail/profilephoto.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
+import "swiper/css";
+
 
 import Image from "next/image";
 
@@ -11,7 +13,7 @@ const Runner = () => {
             image: ProfilePhoto,
             name: "Sarah Matter",
             review:
-                "“Let me help you get your apartment” ",
+                "“Let me help you get your apartment cleaned up” ",
 
         },
         {
@@ -24,7 +26,7 @@ const Runner = () => {
             image: ProfilePhoto,
             name: "Sarah Matter",
             review:
-                "“Let me help you get your apartment cleaned up while you work” ",
+                "“Let me help you get your apartment cleaned up” ",
 
         },
         {
